@@ -1,0 +1,33 @@
+{
+  "name": "tg-bot",
+  "version": "1.0.0",
+  "description": "telegramm bot on node.js/ts",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start:": "node ./dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LethL/tg-bot.git"
+  },
+  "author": "Dmitry Goncharov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LethL/tg-bot/issues"
+  },
+  "homepage": "https://github.com/LethL/tg-bot#readme",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^20.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint": "^8.44.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "telegraf": "^4.12.2"
+  }
+}
